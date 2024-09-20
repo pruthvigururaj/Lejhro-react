@@ -1,0 +1,22 @@
+@media (max-width: 1000px) {
+    .custom-hidden {
+      display: none;
+    }
+  }
+  @media (max-width: 1200px) {
+    .pad {
+      padding :0px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .list-margin {
+      margin-left: 5px;
+    }
+  }
+  @media (max-width: 600px) {
+    .logo-padding {
+      padding :20px 20px;
+      
+    }
+  }
+  
