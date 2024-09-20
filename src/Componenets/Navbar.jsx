@@ -35,7 +35,7 @@ export function Navbar()
         {showNavbar && <FixedNavbar />}
        <div className="flex flex-row md:px-28 sm:px-10 py-10 px-5 justify-between items-center logo-padding">
          <div>
-              <img className="w-70 h-10 cursor-pointer sm:w-50 sm:h-8" src="/Images/lejhro_logo_white.png" alt="Img_logo"></img>
+              <img className="w-70 h-10 cursor-pointer sm:w-50 sm:h-8" src={`${process.env.PUBLIC_URL}/Images/lejhro_logo_white.png`} alt="Img_logo"></img>
          </div>
 
          <div className="pl-10 text-white custom-hidden pad">
@@ -48,7 +48,7 @@ export function Navbar()
          </div>
 
          <div >
-              <img className="w-70 h-10 bg-white rounded-full p-1 cursor-pointer" src="/Images/menu.png" alt="menu"  onClick={toggleSidebar} ></img>
+              <img className="w-70 h-10 bg-white rounded-full p-1 cursor-pointer" src={`${process.env.PUBLIC_URL}/Images/menu.png`}  onClick={toggleSidebar} ></img>
          </div>
        </div>
 

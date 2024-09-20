@@ -9,7 +9,7 @@ function Information()
             Statistical Approaches for Balancing Ethical Privacy & Data-Driven Innovation
             </h1>
           <div>
-            <img src="/Images/blog39.png" alt="img"></img>
+            <img  src={`${process.env.PUBLIC_URL}/Images/blog39.png`} alt="img"></img>
           </div>
           <h1 className='text-lg my-6 font-bold'>Introduction:</h1>
           <p>Information communication technologies like online social networking spots, cloud computing technologies, and messaging operations are rapidly increasing. New information communication technology is developing almost every day. As ultramodern society becomes forcefully rooted in the world of Snapchat, Amazon Web Services, and the like, controllers, scholars, and technologists are raising new questions about the pitfalls of particular data protection by similar information communication technologies. Personal data is any information identified like internet protocol and electronic mail address.</p>

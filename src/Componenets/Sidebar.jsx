@@ -10,7 +10,7 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
       <div className="p-4">
         <div className="flex flex-row justify-between pb-3">
           <div>
-            <img className="w-52 h-10" src="/Images/lejhro_logo_blue.png" alt="img_blue"></img>
+            <img className="w-52 h-10" src={`${process.env.PUBLIC_URL}/Images/lejhro_logo_blue.png`}  alt="img_blue"></img>
            </div>
            <div className="text-2xl bg-white text-black rounded-full px-2 py-1 border border-black cursor-pointer  hover:bg-black hover:text-white" onClick={toggleSidebar}>
             X
@@ -30,10 +30,10 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
         </ul>
 
         <div className="flex flex-row mt-5">
-            <img className="w-10 h-10 cursor-pointer" src="/Images/twitter.png" alt="twitter"></img>
-            <img className="w-10 h-10 ml-2 cursor-pointer" src="/Images/facebook.png" alt="twitter"></img>
-            <img className="w-10 h-10 ml-2 cursor-pointer" src="/Images/linkdn.png" alt="twitter"></img>
-            <img className="w-10 h-10 ml-2 cursor-pointer" src="/Images/youtube.png" alt="twitter"></img>
+            <img className="w-10 h-10 cursor-pointer" src={`${process.env.PUBLIC_URL}/Images/twitter.png`}  alt="twitter"></img>
+            <img className="w-10 h-10 ml-2 cursor-pointer" src={`${process.env.PUBLIC_URL}/Images/facebook.png`} alt="twitter"></img>
+            <img className="w-10 h-10 ml-2 cursor-pointer" src={`${process.env.PUBLIC_URL}/Images/linkdn.png`}  alt="twitter"></img>
+            <img className="w-10 h-10 ml-2 cursor-pointer"  src={`${process.env.PUBLIC_URL}/Images/youtube.png`}  alt="twitter"></img>
         </div>
       </div>
     </div>
